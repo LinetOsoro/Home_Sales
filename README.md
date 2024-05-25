@@ -27,5 +27,14 @@ The formatted Parquet home sales data is partitioned by the "date_built" field, 
 ## Conclusion
 The `home_sales` temporary table is uncached, and its uncached status is verified using PySpark.
 
-## GitHub Repository
-The code can be found in the Home_Sales.ipynb file, available in the "Home_Sales" GitHub repository.
+
+## References used 
+PySpark Overview (https://spark.apache.org/docs/latest/api/python/index.html)
+
+Parquet (https://spark.apache.org/docs/latest/sql-data-sources-parquet.html)
+
+Global temporary view (https://spark.apache.org/docs/latest/sql-getting-started.html#global-temporary-view)
+
+How Cache Works in Apache Spark (https://medium.com/@charchitpatidar/how-cache-works-in-apache-spark-aea6eeb3fd03#:~:text=cache()%20caches%20the%20specified,RDD%20in%20a%20single%20action.)
+
+RDD Programming Guide (https://spark.apache.org/docs/latest/rdd-programming-guide.html
